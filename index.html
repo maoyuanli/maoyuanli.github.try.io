@@ -22,24 +22,22 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- <meta http-equiv="refresh" content="0; URL=https://cs.stanford.edu/~leoyuan/"> -->
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	  
-	<!-- <meta name="google-site-verification" content="u_--0s_Uw50r4zCgRrzltkmFhNCduYOJwPGlKVTuNJU" /> -->
-
   <title>Maoyuan LI</title>
   <meta name="description" lang="en" content="This is an academic website for Will Hua">
   <meta name="keywords" lang="en" content="Maoyuan LI" />
   
-
   <link rel="shortcut icon" href="images/J.jpeg">
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="css/custom.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/academicons.css"/>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <!-- KEEP ONLY ONE FONT-AWESOME (v6.5) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Academicons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
   <!--[if lt IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
@@ -50,7 +48,7 @@
     function ShowHide(divId, linkDivId) {
         if(document.getElementById(divId).style.display == 'none') {
             document.getElementById(divId).style.display='block';
-            document.getElementById(linkDivId).style.display='none'; // Hide the "read more" link
+            document.getElementById(linkDivId).style.display='none';
         }
         else {
             document.getElementById(divId).style.display = 'none';
@@ -59,10 +57,9 @@
   </script>
 
   <style>
-    /* 为所有列表项设置样式 */
     li.indented {
         position: relative;
-        padding-left: 90px; /* 这是对齐效果的关键，可以根据实际内容调整这个值 */
+        padding-left: 90px;
     }
 
     li.indented::before {
@@ -74,8 +71,6 @@
     }
   </style>
   
-
-  
 </head>
 
 
@@ -86,15 +81,15 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 <!-- End Google Tag Manager (noscript) -->
 
-    <header class="site-header">
+<header class="site-header">
 
   <div class="wrapper">
 <nav class="site-nav">
   <a href="#" class="menu-icon">
     <svg viewBox="0 0 18 15">
-      <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-      <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-      <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+      <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484..."/>
+      <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516..."/>
+      <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516..."/>
     </svg>
   </a>
 
@@ -105,63 +100,64 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a class="page-link" href="#codebase"><b>GitHub</b></a>
     <a class="page-link" href="#awards"><b>Honors & Awards</b></a>
     <a class="page-link" href="#academicservices"><b>Academic Services </b></a>
-    <!--<a class="page-link" href="#otherprojects">Projects</a>-->
-    <!-- Button for Posts -->
   </div>
 </nav>
   </div>
 </header>
 
-  <div id="profile-cover" class="cover shallow-bg img-responsive"> 
-    <div id="profile-namecard" class="profile-wrapper wrapper-light">
-      <div id="my-pic" class="profile-col profile-col-1">
-        <img id="profile-avatar" src="images/myself.jpg" alt="Me" class="circle-img border-dark"-/>
+<div id="profile-cover" class="cover shallow-bg img-responsive"> 
+  <div id="profile-namecard" class="profile-wrapper wrapper-light">
+    <div id="my-pic" class="profile-col profile-col-1">
+      <img id="profile-avatar" src="images/myself.jpg" alt="Me" class="circle-img border-dark"/>
+    </div>
+
+    <div id="my-contact" class="profile-col profile-col-2">
+      <div id="my-name" class="text-grey-dark">
+        Maoyuan LI<br>
       </div>
-      <div id="my-contact" class="profile-col profile-col-2">
-        <div id="my-name" class="text-grey-dark">
-          Maoyuan LI<br>
-        </div>
-        <div id="my-title" class="text-grey">
-          Advanced Wireless and Communication Research Center, University of Electro-Communications
-        </div>
-        <div id="my-email" class="text-grey-light">
-          maoyuan.li.bit [at] gmail.com
-        </div>
+      <div id="my-title" class="text-grey">
+        Advanced Wireless and Communication Research Center, University of Electro-Communications
+      </div>
+      <div id="my-email" class="text-grey-light">
+        maoyuan.li.bit [at] gmail.com
+      </div>
+    </div>
+
+    <div class="social-media">
+
+      <!-- Google Scholar -->
+      <a href="https://scholar.google.com/citations?user=yAXLFuEAAAAJ&hl=en" target="_blank" class="icon-button">
+        <i class="ai ai-google-scholar"></i>
+        <span></span>
+      </a>
+
+      <!-- ORCID -->
+      <a href="https://orcid.org/0000-0002-6826-0701" target="_blank" class="icon-button">
+        <i class="ai ai-orcid"></i>
+        <span></span>
+      </a>
+
+      <!-- ResearchGate -->
+      <a href="https://www.researchgate.net/profile/Maoyuan-Li" target="_blank" class="icon-button">
+        <i class="ai ai-researchgate"></i>
+        <span></span>
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/maoyuan-li-63a2b0238/" target="_blank" class="icon-button">
+        <i class="fa-brands fa-linkedin"></i>
+        <span></span>
+      </a>
+
+      <!-- Email -->
+      <a href="mailto:maoyuan.li.bit@gmail.com" class="icon-button">
+        <i class="fa-solid fa-envelope"></i>
+        <span></span>
+      </a>
 
     </div>
-<div class="social-media">
-
-  <!-- Google Scholar -->
-  <a href="https://scholar.google.com/citations?user=yAXLFuEAAAAJ&hl=en" target="_blank" class="icon-button">
-    <i class="ai ai-google-scholar"></i>
-    <span></span>
-  </a>
-
-  <!-- ORCID -->
-  <a href="https://orcid.org/0000-0002-6826-0701" target="_blank" class="icon-button">
-    <i class="ai ai-orcid"></i>
-    <span></span>
-  </a>
-
-  <!-- ResearchGate -->
-  <a href="https://www.researchgate.net/profile/Maoyuan-Li" target="_blank" class="icon-button">
-    <i class="ai ai-researchgate"></i>
-    <span></span>
-  </a>
-
-  <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/maoyuan-li-63a2b0238/" target="_blank" class="icon-button">
-    <i class="fa-brands fa-linkedin"></i>
-    <span></span>
-  </a>
-
-  <!-- Email -->
-  <a href="mailto:maoyuan.li.bit@gmail.com" class="icon-button">
-    <i class="fa-solid fa-envelope"></i>
-    <span></span>
-  </a>
-        </div>
-      </div>
+  </div>
+</div>
 
 		
       <!-- <div id="my-desc" class="profile-col profile-col-2 hide">
